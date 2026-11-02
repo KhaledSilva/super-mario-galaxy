@@ -816,8 +816,6 @@
 
   /* Quadrantes distintos: top/left únicos por checklist; escalas grandes / médias / menor */
   .personagem--mario {
-    
-
     top: 3%;
     left: 18%;
     z-index: 5;
@@ -825,8 +823,6 @@
   }
 
   .personagem--luigi {
-    
-
     top: 8%;
     left: 65%;
     z-index: 4;
@@ -834,8 +830,6 @@
   }
 
   .personagem--peach {
-    
-
     top: 65%;
     left: 41%;
     z-index: 3;
@@ -843,8 +837,7 @@
   }
 
   .personagem--rosalina {
-    --pers-img-w: clamp(128px, 15vw, 200px);
-
+    --pers-img-w: clamp(180px, 15vw, 200px);
     top: 114%;
     left: 69%;
     z-index: 6;
@@ -853,7 +846,6 @@
 
   .personagem--yoshi {
     --pers-img-w: clamp(200px, 27vw, 340px);
-
     top: 94%;
     left: 8%;
     z-index: 7;
@@ -861,7 +853,6 @@
   }
 
   .personagem--bowser-jr {
-   
     top: 158%;
     left: 41%;
     z-index: 2;
@@ -875,33 +866,33 @@
 
     .personagem--mario {
       left: 2%;
-      top: 12%;
+      top: 5%;
     }
 
     .personagem--luigi {
-      left: 72%;
-      top: 7%;
+      left: 58%;
+      top: 2%;
     }
 
     .personagem--peach {
-      left: 22%;
-      top: 39%;
+      left: 30%;
+      top: 80%;
     }
 
     .personagem--rosalina {
-      left: 62%;
-      top: 41%;
+      left: 72%;
+      top: 135%;
     }
 
     .personagem--yoshi {
       left: 1%;
-      top: 61%;
+      top: 111%;
       --pers-img-w: clamp(174px, 30vw, 300px);
     }
 
     .personagem--bowser-jr {
-      left: 48%;
-      top: 66%;
+      left: 30%;
+      top: 180%;
     }
   }
 
