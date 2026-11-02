@@ -259,6 +259,14 @@ function initStarfield() {
   };
 }
 
+const heroButton = document.querySelector('.hero__cta');
+
+heroButton.addEventListener('click', () => {
+    document.querySelector('#trailers').scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+
 function initFloatingNav() {
   const nav = document.querySelector('.floating-nav');
   if (!nav) return;
